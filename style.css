@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+    font-family: century;
+}
+header{
+    background-image: url(background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+background: black;
+color: white;
+}
+ul li.active a{
+    background: black;
+    color: white;
+}
+.main{
+    max-width: 114rem;
+    margin: auto;
+}
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titre h1{
+    color: black;
+    font-size: 40px;
+}
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bouton a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.btm{
+    transition: 0.6s ease;
+}
+.btm:hover{
+    background-color: black;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

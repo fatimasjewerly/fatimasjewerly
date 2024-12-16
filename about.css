@@ -1,0 +1,29 @@
+h2, h3{
+    background-color: goldenrod;
+    color: black;
+    font-family: vivaldi;
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: auto;
+    margin-left: 630px;
+}
+p{
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+    font-size: larger;
+}
+p:hover{
+    background-color: goldenrod;
+    color: black;
+}
+h2:hover{
+    background-color: black;
+    color: goldenrod;
+}
+h3:hover{
+    background-color: black;
+    color: goldenrod;
+}
